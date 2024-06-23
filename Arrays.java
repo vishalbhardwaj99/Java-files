@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Arrays {
-    public static void main(Strings[] args) {
+    public static void main(String[] args) {
         // int[]marks = new int[100];
         // int[]marks2 = {97,98,99};
         Scanner sc = new Scanner(System.in);

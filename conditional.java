@@ -1,6 +1,6 @@
  import java.util.Scanner;
  public class conditional {
-    public static void main(Strings[] args)
+    public static void main(String[] args)
     {
         // if else statement..............
 
@@ -43,6 +43,14 @@
             default:
             System.out.println("wrong number");
         }
+
+
+        // Ternary operator...............................................
+        int n = 5;
+        int result = 0;
+
+        result = n%2==0 ? 10 : 20;
+        System.out.println(result);
         sc.close();
 
     }     

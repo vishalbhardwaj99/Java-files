@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class TwoDarray {
-    public static void main(Strings[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the rows :-");
         int rows=sc.nextInt();
@@ -30,6 +30,17 @@ public class TwoDarray {
                 System.out.println("the indices is :- (" + i + "," + j + ")");
                }
             }
+        }
+
+
+        System.out.println("The elements entered by you with using advance loop");
+        for(int n[] : arr)
+        {
+            for(int m : n)
+            {
+                System.out.print(m +" ");
+            }
+            System.out.println();
         }
         sc.close();
     }
