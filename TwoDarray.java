@@ -33,12 +33,12 @@ public class TwoDarray {
         }
 
 
-        System.out.println("The elements entered by you with using advance loop");
+        System.out.println("The elements entered by you with using advance loop :---");
         for(int n[] : arr)
         {
             for(int m : n)
             {
-                System.out.print(m +" ");
+                System.out.print(m + " ");
             }
             System.out.println();
         }
